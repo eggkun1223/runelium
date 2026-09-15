@@ -1,0 +1,11 @@
+node_modules
+dist
+.tsbuild
+*.tsbuildinfo
+.DS_Store
+*.local
+
+# Secrets / local overrides — never commit real env files.
+.env
+.env.*
+!.env.example

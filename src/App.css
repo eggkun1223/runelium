@@ -1,0 +1,19 @@
+.app-scroll {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: var(--bg);
+  color: var(--fg);
+  transition:
+    background 240ms ease,
+    color 240ms ease;
+}
+
+.app-status {
+  display: grid;
+  place-items: center;
+  padding: 32px 20px;
+  font-size: 14px;
+  opacity: 0.6;
+  text-align: center;
+}

@@ -1,0 +1,200 @@
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 56px 24px 96px;
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--line);
+}
+
+.titleGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.overline {
+  font-size: 11px;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  opacity: 0.45;
+}
+
+.siteTitle {
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.themeToggle {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  padding: 9px 14px;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.themeToggle:hover {
+  border-color: var(--accent);
+}
+
+.resumeCard {
+  width: 100%;
+  margin-top: 22px;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  text-align: left;
+}
+.resumeCard:hover {
+  border-color: var(--accent);
+}
+
+.resumeInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 0;
+}
+
+.resumeLabel {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.resumeTitle {
+  font-size: 15px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.resumePct {
+  font-size: 13px;
+  opacity: 0.5;
+  white-space: nowrap;
+}
+
+.grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 28px;
+}
+
+.cardWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  text-align: left;
+}
+.cardWrap:hover {
+  opacity: 0.88;
+}
+
+.readProgress {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.readProgressLabel {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.readProgressTrack {
+  height: 3px;
+  background: rgba(143, 95, 102, 0.14);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.readProgressFill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: inherit;
+}
+
+.cover {
+  aspect-ratio: 3 / 4;
+  padding: 22px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fdf8f8;
+  border-radius: 3px;
+  box-shadow:
+    0 1px 0 0 rgba(0, 0, 0, 0.12),
+    0 14px 28px -20px rgba(27, 21, 23, 0.55);
+}
+
+.coverNo {
+  font-size: 10px;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.coverBottom {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.coverTitle {
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-wrap: pretty;
+}
+
+.coverRule {
+  width: 28px;
+  height: 1px;
+  background: rgba(253, 248, 248, 0.6);
+}
+
+.coverTagline {
+  font-size: 12px;
+  line-height: 1.6;
+  opacity: 0.78;
+}
+
+.cardMeta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.cardTitle {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.cardSub {
+  font-size: 12px;
+  opacity: 0.5;
+  white-space: nowrap;
+}
