@@ -12,6 +12,10 @@ export function Gate({ question, value, onChange, onSubmit, error }: GateProps) 
   return (
     <div className={styles.screen}>
       <div className={styles.column}>
+        <div className={styles.mascotRow}>
+          <img className={styles.mascot} src="/gate.gif" alt="" />
+          <img className={styles.mascot} src="/gate2.gif" alt="" />
+        </div>
         <div className={styles.labelGroup}>
           <div className={styles.overline}>private library</div>
           <div className={styles.rule} />
